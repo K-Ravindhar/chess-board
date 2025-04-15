@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+#innerContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 5px solid black;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+}
+
+.black {
+    background-color: green;
+}
+
+.white {
+    background-color: white
+}
+
+.highlight {
+    background-color: red;
+}
