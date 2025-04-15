@@ -27,6 +27,24 @@ A simple and interactive chessboard simulation built using **HTML**, **CSS**, an
 
 * Pawn moves
 
-![Pawn moves image](image-1.png)
+![Pawn moves](image-2.png)
 
+* Rook moves
 
+![Rook moves](image-3.png)
+
+* Knight moves
+
+![Knight moves](image-4.png)
+
+* Bishop moves 
+
+![Bishop moves](image-5.png)
+
+* queen moves
+
+![queen moves](image-6.png)
+
+* King moves
+
+![King moves](image-7.png)
